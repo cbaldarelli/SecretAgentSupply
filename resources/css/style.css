@@ -150,3 +150,16 @@ nav {
 .info-details h4 {
   color: black;
 }
+
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.copywright {
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
