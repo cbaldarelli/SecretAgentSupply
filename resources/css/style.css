@@ -3,7 +3,6 @@ html {
   font-size: 18px;
 }
 
-
 .main {
   color: white;
   display: flex;
@@ -11,6 +10,7 @@ html {
   justify-content: center;
 }
 
+/* Header */
 header {
   background-color: black;
   display: flex;
@@ -36,21 +36,29 @@ header {
   margin-left: 0;
 }
 
+/* Banner */
 .hero {
   background-image: url('../images/moto.jpeg');
   height: 25rem;
   width: 100%;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
+#hero-content {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .hero-text {
   background-color: black;
   width: 20rem;
   padding: 2rem 3rem;
   text-transform: uppercase;
   font-weight: bold;
-  position: relative;
-  top: 9rem;
+  margin-top: 9rem;
 }
 
 .hero h3 {
