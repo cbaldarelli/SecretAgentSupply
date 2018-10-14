@@ -43,3 +43,22 @@ header {
   width: 100%;
   background-size: cover;
 }
+
+.hero-text {
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  top: 9rem;
+}
+
+.hero h3 {
+  font-size: 1rem;
+  padding-bottom: .25rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
