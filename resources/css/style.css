@@ -114,5 +114,14 @@ nav {
 
 }
 #glasses img {
-  width: 9rem;
+  width: 9rem; /*NEED TO FIX */
+}
+
+.product-name {
+  background-color: black;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
 }
