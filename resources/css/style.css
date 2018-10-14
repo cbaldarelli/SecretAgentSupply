@@ -14,7 +14,6 @@ html {
 header {
   background-color: black;
   display: flex;
-
   justify-content: center;
 }
 
@@ -61,4 +60,18 @@ header {
 
 .hero h1 {
   font-size: 2rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-color: firebrick;
+
+}
+nav {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
