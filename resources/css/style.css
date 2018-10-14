@@ -112,7 +112,6 @@ nav {
   margin-top: 2rem;
   margin-bottom: 2rem;
   height: 9rem;
-  border: 1px solid red;
 
 }
 #glasses img {
@@ -149,6 +148,7 @@ nav {
 
 .info-details h4 {
   color: black;
+  padding-top: 0.25rem;
 }
 
 footer {
