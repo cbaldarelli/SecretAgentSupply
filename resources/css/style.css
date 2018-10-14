@@ -84,6 +84,8 @@ nav {
   background-color: white;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*featured product boxes */
@@ -123,5 +125,28 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0;
+  margin-bottom: 0; /*product titles seem a few px too high? */
+}
+.more {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  }
+
+  .info {
+  width: 35%;
+  height:auto;
+}
+.info-header {
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.info-details h4 {
+  color: black;
 }
