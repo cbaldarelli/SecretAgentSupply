@@ -174,11 +174,18 @@ footer {
     justify-content: flex-start;
   }
 
-  nav .full {display: none;}
-  nav .short {
-    display: flex;
+nav .full {display: none;}
+nav .short {
+    display: flex;  /*Can I make this link somewhere?*/
   }
 nav {
   justify-content: center;
+}
+
+#glasses {
+  display: none;
+}
+.product {
+  width: 47%;
 }
 }
