@@ -98,13 +98,15 @@ nav .short {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 .product {
   border: 4px solid black;
   width: 30%;
-  height: auto;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
 }
 .product-image {
   display: flex;
@@ -112,13 +114,18 @@ nav .short {
 }
 
 .product-image img {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  height: 9rem;
-
+  padding: 2rem 2rem;
+  max-height: 9rem;
+  max-width: 9rem;
 }
 #glasses img {
-  width: 9rem; /*NEED TO FIX */
+  max-height: 100%;
+  width: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .product-name {
@@ -169,7 +176,9 @@ footer {
 
 /*media queries*/
 
-@media only screen and (max-width:1024px) {
+
+/*Tablets*/
+@media only screen and (min-width:471px) and (max-width:1024px) {
   .hero {
     justify-content: flex-start;
   }
@@ -188,4 +197,23 @@ nav {
 .product {
   width: 47%;
 }
+}
+
+/*Smart Phones, not displaying, not sure why*/
+@media only screen and (max-width:470px) {
+  .hero {
+  }
+  #herocontent {
+    width: 100%;
+    align-items: baseline;
+  }
+
+  .hero-text h3 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+  .hero-text h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }
