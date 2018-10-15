@@ -70,8 +70,8 @@ header {
   display: flex;
   justify-content: center;
   background-color: firebrick;
-
 }
+
 nav {
   width: 960px;
   display: flex;
@@ -80,6 +80,9 @@ nav {
   padding-bottom: 0.75rem;
 }
 
+nav .short {
+  display: none;
+}
 .main {
   background-color: white;
   display: flex;
@@ -170,4 +173,12 @@ footer {
   .hero {
     justify-content: flex-start;
   }
+
+  nav .full {display: none;}
+  nav .short {
+    display: flex;
+  }
+nav {
+  justify-content: center;
+}
 }
