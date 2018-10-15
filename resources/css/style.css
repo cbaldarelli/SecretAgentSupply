@@ -80,7 +80,7 @@ nav {
   padding-bottom: 0.75rem;
 }
 
-nav .short {
+nav .mobile {
   display: none;
 }
 .main {
@@ -183,8 +183,8 @@ footer {
     justify-content: flex-start;
   }
 
-nav .full {display: none;}
-nav .short {
+nav .desktop {display: none;}
+nav .mobile {
     display: flex;  /*Can I make this link somewhere?*/
   }
 nav {
