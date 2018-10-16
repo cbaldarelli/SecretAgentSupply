@@ -202,14 +202,17 @@ nav {
 /*Smart Phones, not displaying, not sure why*/
 
 @media only screen and (max-width:470px) {
-  .hero {
-  }
+
+.hero {
+  display: flex;
+}
   #herocontent {
-    width: 100%;
-    align-items: baseline;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
   }
   .hero-text {
     padding: 1rem 2rem;
+    width: 100%;
   }
   .hero-text h3 {
     font-size: 0.77rem;
@@ -230,5 +233,26 @@ nav {
 
   #glasses {
     display: none;
+  }
+  #watch {
+    display: none;
+  }
+  #product-grid {
+    width: 470px;
+    justify-content: center;
+  }
+  .product {
+    width: 90%;
+  }
+
+  .more {
+    width: 470px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .info {
+    width: 90%;
+    margin-bottom: 0.5rem;
   }
 }
