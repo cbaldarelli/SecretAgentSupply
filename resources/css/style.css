@@ -205,10 +205,12 @@ nav {
 
 .hero {
   display: flex;
+  align-items: flex-end;
+
 }
   #herocontent {
-    flex-direction: column-reverse;
-    justify-content: flex-start;
+    display: flex;
+
   }
   .hero-text {
     padding: 1rem 2rem;
