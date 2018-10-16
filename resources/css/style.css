@@ -206,6 +206,7 @@ nav {
 .hero {
   display: flex;
   align-items: flex-end;
+  flex-direction: row;
 
 }
   #herocontent {
