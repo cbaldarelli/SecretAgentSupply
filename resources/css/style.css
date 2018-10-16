@@ -194,6 +194,10 @@ nav {
 #glasses {
   display: none;
 }
+
+#product-grid {
+  width: 100%;
+}
 .product {
   width: 47%;
 }
@@ -241,7 +245,7 @@ nav {
     display: none;
   }
   #product-grid {
-    width: 470px;
+    width: 100%;
     justify-content: center;
   }
   .product {
